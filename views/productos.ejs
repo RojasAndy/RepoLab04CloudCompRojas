@@ -1,0 +1,37 @@
+<html lang="en">
+
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>productos</title>
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th>PRODUCTOS</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        <%  pro.forEach((p)=> { %>
+
+            <tr>           
+                <td><%= p %></td>
+            </tr>
+
+        <% }) %>
+        </tbody>
+    </table>
+    
+</body>
+
+</html>
